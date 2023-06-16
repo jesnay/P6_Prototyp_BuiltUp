@@ -5,11 +5,20 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/DemoScene.unity
+    guid: 319dafa5c80f29f428dc1e0d03f04177
+  - enabled: 0
+    path: Assets/Samples/XR Hands/1.2.1/HandVisualizer/HandVisualizer.unity
+    guid: ab7acf0d9677fbe4db51bc36647d4fcb
+  - enabled: 1
+    path: Assets/Samples/XR Interaction Toolkit/2.3.2/Hands Interaction Demo/Runtime/HandsDemoScene.unity
+    guid: 3ff35cecbcc52cc42945cf531638a60a
   m_configObjects:
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 594adc2b97b389b4eabaaa6fc7970314,
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c053d5ab959784644a8a707e2738f994,
       type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 89347b799a050b14fa564707cb446596,
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: e7e06aac918e9a74e8993e0592075092,
       type: 2}
