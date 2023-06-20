@@ -6,9 +6,8 @@ public class AddNewBrick : MonoBehaviour
 {
 
     // public GameObject[] bricks=new GameObject[9];
-    public GameObject brick;
-
-    public bool wasSelectedFirstTime=false;
+    public Vector3 spawnPos = new Vector3(-0.4f, 1.2f, -0.2f);
+    private bool wasSelectedFirstTime = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +25,7 @@ public class AddNewBrick : MonoBehaviour
         if (wasSelectedFirstTime == false)
         {
 
-            Instantiate(brick, new Vector3(-0.4f, 1.2f, -0.2f), transform.rotation);
+            Instantiate(gameObject, spawnPos, transform.rotation);
             wasSelectedFirstTime = true;
         }
     }
