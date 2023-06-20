@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class AddNewBrick : MonoBehaviour
 {
-
-    // public GameObject[] bricks=new GameObject[9];
-    public Vector3 spawnPos = new Vector3(-0.4f, 1.2f, -0.2f);
     private bool wasSelectedFirstTime = false;
+
+    private Vector3 gameObjectDefaultPosition;
     // Start is called before the first frame update
     void Start()
     {
-
+        gameObjectDefaultPosition = transform.position;
     }
 
     // Update is called once per frame
@@ -25,7 +24,7 @@ public class AddNewBrick : MonoBehaviour
         if (wasSelectedFirstTime == false)
         {
 
-            Instantiate(gameObject, spawnPos, transform.rotation);
+            Instantiate(gameObject, gameObjectDefaultPosition, transform.rotation);
             wasSelectedFirstTime = true;
         }
     }
