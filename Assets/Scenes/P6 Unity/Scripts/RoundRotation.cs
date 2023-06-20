@@ -17,7 +17,7 @@ public class RoundRotation : MonoBehaviour
 
     public void RoundRot()
     {
-        Debug.Log(transform.eulerAngles + "Rotation Before");
+        // Debug.Log(transform.eulerAngles + "Rotation Before");
 
         Vector3 newRotation = transform.eulerAngles;
 
@@ -26,6 +26,6 @@ public class RoundRotation : MonoBehaviour
         newRotation.z = 0; // ((Mathf.Round(newRotation.z / 90)) * 90);
 
         transform.eulerAngles = newRotation;
-        Debug.Log(transform.eulerAngles + "Rotation After");
+        // Debug.Log(transform.eulerAngles + "Rotation After");
     }
 }

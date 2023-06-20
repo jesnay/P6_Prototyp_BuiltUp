@@ -18,7 +18,7 @@ public class RoundPosition : MonoBehaviour
 
     public void RoundPos()
     {
-        Debug.Log(transform.position + "Pos before");
+        // Debug.Log(transform.position + "Pos before");
 
         // int afterDecimalPoint = 1; //how many decimal places there should be 
 
@@ -39,6 +39,6 @@ public class RoundPosition : MonoBehaviour
 
 
         transform.position = new Vector3(xPos, yPos, zPos);
-        Debug.Log(transform.position + "Pos after");
+        // Debug.Log(transform.position + "Pos after");
     }
 }
