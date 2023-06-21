@@ -30,11 +30,14 @@ public class RoundPosition : MonoBehaviour
         // float yPos = (Mathf.Round(transform.position.y * Mathf.Pow(10, afterDecimalPoint)) / Mathf.Pow(10, afterDecimalPoint));
         // float zPos = (Mathf.Round(transform.position.z * Mathf.Pow(10, afterDecimalPoint)) / Mathf.Pow(10, afterDecimalPoint));
 
+        float xSpacing = 0.023f;
+        float ySpacing = 0.028f;
+        float zSpacing = xSpacing;
 
 
-        float xPos = (Mathf.Round(transform.position.x / 0.016f) *  0.016f);
-        float yPos = (Mathf.Round(transform.position.y / 0.0192f) * 0.0192f);
-        float zPos = (Mathf.Round(transform.position.z /  0.016f) *  0.016f);
+        float xPos = (Mathf.Round(transform.position.x / xSpacing) * xSpacing);
+        float yPos = (Mathf.Round(transform.position.y / ySpacing) * ySpacing);
+        float zPos = (Mathf.Round(transform.position.z / zSpacing) * zSpacing);
 
 
 

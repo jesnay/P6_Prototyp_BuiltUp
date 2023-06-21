@@ -17,26 +17,26 @@ public class CheckCollision : MonoBehaviour
 
     }
 
-    public void EnableCollision()
-    {
+    // public void EnableCollision()
+    // {
 
-        isTriggered = true;
-        gameObject.GetComponent<BoxCollider>().isTrigger = true;
+    //     isTriggered = true;
+    //     gameObject.GetComponent<BoxCollider>().isTrigger = true;
 
-        gameObject.GetComponent<BoxCollider>().isTrigger = false;
-    }
+    //     gameObject.GetComponent<BoxCollider>().isTrigger = false;
+    // }
 
-    public void OnTriggerEnter(Collider other)
-    {
-        // if (isTriggered)
-        // {
-        gameObject.GetComponent<BoxCollider>().isTrigger = true;
+    // public void OnTriggerEnter(Collider other)
+    // {
+    //     // if (isTriggered)
+    //     // {
+    //     gameObject.GetComponent<BoxCollider>().isTrigger = true;
 
-        transform.position = new Vector3(transform.position.x, transform.position.y + 0.0192f, transform.position.z);
+    //     transform.position = new Vector3(transform.position.x, transform.position.y + 0.0192f, transform.position.z);
 
-        gameObject.GetComponent<BoxCollider>().isTrigger = false;
+    //     gameObject.GetComponent<BoxCollider>().isTrigger = false;
 
 
-        // }
-    }
+    //     // }
+    // }
 }
