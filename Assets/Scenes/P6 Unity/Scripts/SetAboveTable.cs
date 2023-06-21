@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SetAboveTable : MonoBehaviour
 {
+public TableHeight yPosTable;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,12 +15,14 @@ public class SetAboveTable : MonoBehaviour
     void Update()
     {
 
-    }
 
-    void OnTriggerEnter(Collider other)
+    }
+    public void KeepAboveTable()
     {
-        Destroy(other.gameObject);
-        // other.gameObject.transform.position = new Vector3(other.gameObject.transform.position.x, 0.09f, other.gameObject.transform.position.z);
+        if (transform.position.y < yPosTable.tableHeight)
+        {
+            transform.position = new Vector3(transform.position.x, yPosTable.tableHeight, transform.position.z);
+        }
     }
 
 }
