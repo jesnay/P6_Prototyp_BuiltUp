@@ -6,6 +6,10 @@ public class CheckCollision : MonoBehaviour
 {
     private bool isTriggered;
     // Start is called before the first frame update
+    private bool lastSet=false;
+    private bool insideBlock=false;
+
+    private float otherYPos;
     void Start()
     {
 
@@ -14,7 +18,34 @@ public class CheckCollision : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+    }
 
+    public void checkSelected(){
+        lastSet=true;
+    }
+
+
+    private void OnTriggerEnter(Collider other){
+        if(lastSet==true){
+            
+            insideBlock=true;
+            Debug.Log(insideBlock);
+            otherYPos=other.gameObject.transform.position.y;
+        }
+    }
+
+    private void OnTriggerExit(Collider other){
+         insideBlock=false;
+         Debug.Log(insideBlock);
+    }
+
+    public void moveUp(){
+        if(insideBlock==true){
+            transform.position = new Vector3(transform.position.x, otherYPos + 0.028f, transform.position.z);
+            lastSet=false;
+            insideBlock=false;
+        }
     }
 
     // public void EnableCollision()
