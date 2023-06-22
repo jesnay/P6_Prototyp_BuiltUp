@@ -33,6 +33,8 @@ public class AddNewBrick : MonoBehaviour
             ////objectCollider.isTrigger=true;
             //this.transform.localScale = new Vector3(0.003f, 0.003f, 0.003f);
 
+            Instantiate(gameObject, gameObjectDefaultPosition, transform.rotation);
+            objectCollider.isTrigger=true;
             wasSelectedFirstTime = true;
 
 
