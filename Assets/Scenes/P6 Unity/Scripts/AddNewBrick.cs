@@ -12,7 +12,7 @@ public class AddNewBrick : MonoBehaviour
     void Start()
     {
         gameObjectDefaultPosition = transform.position;
-        objectCollider=gameObject.GetComponent<BoxCollider>();
+        objectCollider = gameObject.GetComponent<BoxCollider>();
     }
 
     // Update is called once per frame
@@ -23,21 +23,30 @@ public class AddNewBrick : MonoBehaviour
 
     public void AddBuildingBrick()
     {
+            Debug.Log("This scale: " + transform.position.ToString("f5") + "Name = "+ gameObject.name, this);
+
         if (wasSelectedFirstTime == false)
         {
-            Instantiate(gameObject, gameObjectDefaultPosition, transform.rotation);
-            //objectCollider.isTrigger=true;
+
+            //GameObject obi = Instantiate(gameObject, gameObjectDefaultPosition, transform.rotation);
+            //obi.transform.localScale=new Vector3(0.001f, 0.001f, 0.001f);
+            ////objectCollider.isTrigger=true;
+            //this.transform.localScale = new Vector3(0.003f, 0.003f, 0.003f);
+
             wasSelectedFirstTime = true;
+
+
         }
-        
-        
-    }
- 
-   /* public void checkGrab(){
-        objectCollider.isTrigger=false;
+
+
     }
 
-    public void removeGrab(){
-        objectCollider.isTrigger=true;
-    }*/
+
+    /* public void checkGrab(){
+         objectCollider.isTrigger=false;
+     }
+
+     public void removeGrab(){
+         objectCollider.isTrigger=true;
+     }*/
 }
