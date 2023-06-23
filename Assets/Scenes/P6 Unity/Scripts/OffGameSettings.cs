@@ -12,7 +12,7 @@ public class OffGameSettings : MonoBehaviour
     void Start()
     {
         cameraOffset = GameObject.Find("CameraOffset");
-        cameraOffset.transform.position = new Vector3(0f, 1.65f, 0.5f);
+        cameraOffset.transform.position = new Vector3(0f, 1.4f, 0.5f);
     }
 
     // Update is called once per frame
