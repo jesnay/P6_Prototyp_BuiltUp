@@ -8,9 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/P6 Unity/P6 Unity.unity
     guid: fc4fe7cf24d8a69429e0554f8bdff32f
-  - enabled: 0
-    path: Assets/Samples/XR Interaction Toolkit/2.3.2/Hands Interaction Demo/Runtime/HandsDemoScene.unity
-    guid: 3ff35cecbcc52cc42945cf531638a60a
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c053d5ab959784644a8a707e2738f994,
       type: 2}
