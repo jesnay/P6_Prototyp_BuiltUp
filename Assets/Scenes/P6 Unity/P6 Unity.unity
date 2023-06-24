@@ -1193,7 +1193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraOffset: {fileID: 1470082432548243789}
   mainCamera: {fileID: 1470082432369415534}
-  buttonCanvas: {fileID: 452926527}
+  canvasForResetButton: {fileID: 452926527}
 --- !u!114 &559251336
 MonoBehaviour:
   m_ObjectHideFlags: 0
