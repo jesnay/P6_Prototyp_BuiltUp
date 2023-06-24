@@ -23,7 +23,7 @@ public class AddNewBrick : MonoBehaviour
 
     public void AddBuildingBrick()
     {
-            Debug.Log("This scale: " + transform.position.ToString("f5") + "Name = "+ gameObject.name, this);
+            //Debug.Log("This scale: " + transform.position.ToString("f5") + "Name = "+ gameObject.name, this);
 
         if (wasSelectedFirstTime == false)
         {
@@ -32,8 +32,8 @@ public class AddNewBrick : MonoBehaviour
             //obi.transform.localScale=new Vector3(0.001f, 0.001f, 0.001f);
             ////objectCollider.isTrigger=true;
             //this.transform.localScale = new Vector3(0.003f, 0.003f, 0.003f);
-
             Instantiate(gameObject, gameObjectDefaultPosition, transform.rotation);
+            //GetComponent<Animator>().enabled = false;
             objectCollider.isTrigger=true;
             wasSelectedFirstTime = true;
 
