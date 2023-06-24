@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Table
+  - high 2x
+  - high 4x
+  - flat
   layers:
   - Default
   - TransparentFX
