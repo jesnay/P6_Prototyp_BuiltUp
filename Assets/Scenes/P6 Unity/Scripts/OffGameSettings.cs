@@ -7,21 +7,21 @@ using UnityEngine.SceneManagement;
 
 public class OffGameSettings : MonoBehaviour
 {
-    private GameObject cameraOffset;
-private Vector3 mainCameraPos;
+    public GameObject cameraOffset;
+    public GameObject mainCamera;
+
+    public GameObject canvasForResetButton;
     // Start is called before the first frame update
     void Start()
     {
-        cameraOffset = GameObject.Find("CameraOffset");
         cameraOffset.transform.position = new Vector3(0f, 1.4f, 0.5f);
 
-mainCameraPos=GameObject.Find("MainCamera").transform.position;
-        }
+    }
 
     // Update is called once per frame
     void Update()
     {
-transform.position=mainCameraPos+new Vector3(0,0,1f);
+        canvasForResetButton.transform.position = mainCamera.transform.position + new Vector3(0f, -0.5f, -0.8f);
     }
 
     public void ResetGame()
