@@ -21,7 +21,7 @@ public class OffGameSettings : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        canvasForResetButton.transform.position = mainCamera.transform.position + new Vector3(0f, -0.5f, -0.8f);
+        canvasForResetButton.transform.position = mainCamera.transform.position + new Vector3(0f, -0.5f, -0.4f);
     }
 
     public void ResetGame()
