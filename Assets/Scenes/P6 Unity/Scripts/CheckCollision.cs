@@ -32,7 +32,7 @@ public class CheckCollision : MonoBehaviour
         if(lastSet==true){
             
             insideBlock=true;
-            Debug.Log(insideBlock);
+            Debug.Log("Trigger enter");
             otherYPos=other.gameObject.transform.position.y;
             otherYScale=other.gameObject.transform.localScale.y;
             triggerTag = other.gameObject.tag;
@@ -41,13 +41,16 @@ public class CheckCollision : MonoBehaviour
 
     private void OnTriggerExit(Collider other){
          insideBlock=false;
-         Debug.Log(insideBlock);
+         Debug.Log("Trigger exit");
     }
 
     public void moveUp(){
         float centerYPos=otherYPos+(otherYScale/2);
-        
-        if(transform.position.y>centerYPos){
+        Debug.Log(insideBlock);
+
+        if(insideBlock==true){
+            //Debug.Log(transform.position);
+            if(transform.position.y>centerYPos){
                 if(triggerTag == "flat"){
                     transform.position = new Vector3(transform.position.x, otherYPos + 0.0096f, transform.position.z);
                 } else if(triggerTag == "high 2x"){
@@ -55,10 +58,10 @@ public class CheckCollision : MonoBehaviour
                 } else if(triggerTag == "high 4x"){
                     transform.position = new Vector3(transform.position.x, otherYPos + 0.116f, transform.position.z);
                 } else {
-                     transform.position = new Vector3(transform.position.x, otherYPos + 0.028f, transform.position.z);
+                     transform.position = new Vector3(transform.position.x, otherYPos + 0.029f, transform.position.z);
                 }
                
-        }else if(transform.position.y<centerYPos){
+            }else if(transform.position.y<centerYPos){
                 if(gameObject.tag == "flat"){
                     transform.position = new Vector3(transform.position.x, otherYPos - 0.0096f, transform.position.z);
                 } else if(gameObject.tag == "high 2x"){
@@ -66,12 +69,14 @@ public class CheckCollision : MonoBehaviour
                 } else if(gameObject.tag == "high 4x"){
                     transform.position = new Vector3(transform.position.x, otherYPos - 0.116f, transform.position.z);
                 } else {
-                transform.position = new Vector3(transform.position.x, otherYPos - 0.028f, transform.position.z);
-            }
+                    transform.position = new Vector3(transform.position.x, otherYPos - 0.029f, transform.position.z);
+                }
             
-        }
+            }
             lastSet=false;
             insideBlock=false;
+        }
+        
     }
 
     // public void EnableCollision()
