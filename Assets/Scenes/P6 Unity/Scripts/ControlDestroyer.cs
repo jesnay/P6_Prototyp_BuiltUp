@@ -17,11 +17,12 @@ public class ControlDestroyer : MonoBehaviour
     public void checkDestruction(){
         if(CheckDestroyerCollision.brickOnDestroyer){
             CheckDestroyerCollision.brickOnDestroyer = false;
-            Debug.Log(CheckDestroyerCollision.brickOnDestroyer);
-            Debug.Log("HOHOHO");
             Destroy(this.gameObject);   
         }
+    }
 
+    void Update(){
+        Debug.Log(CheckDestroyerCollision.brickOnDestroyer);
     }
 
     //wenn wir links und rechts noch pfeile ergänzen: diese im asynchon (de)aktivieren
