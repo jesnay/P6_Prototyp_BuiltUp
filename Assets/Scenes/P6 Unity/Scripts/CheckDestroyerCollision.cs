@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Teil von Pauls Feature
 public class CheckDestroyerCollision : MonoBehaviour
 {
     public static bool brickOnDestroyer = false;
