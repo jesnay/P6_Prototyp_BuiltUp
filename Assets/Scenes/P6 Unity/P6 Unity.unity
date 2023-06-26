@@ -755,6 +755,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick 1X1 round
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ad8c0b6a856350048b28bd866a0a1ed2,
+        type: 3}
+      propertyPath: m_TagString
+      value: flat
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad8c0b6a856350048b28bd866a0a1ed2, type: 3}
 --- !u!1 &145757000 stripped
@@ -1369,6 +1374,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fence
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ae1c77d72825fa041bbc9c587e96be59,
+        type: 3}
+      propertyPath: m_TagString
+      value: high 2x
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae1c77d72825fa041bbc9c587e96be59, type: 3}
@@ -4435,6 +4445,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Figure
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 37b1088ca7d91904ea33dbef8ff82b07,
+        type: 3}
+      propertyPath: m_TagString
+      value: high 4x
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37b1088ca7d91904ea33dbef8ff82b07, type: 3}
 --- !u!1 &1164269316 stripped
@@ -5162,6 +5177,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Brick 2X2 flat
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6558e68d50d0f5e47a6f46bb21f19616,
+        type: 3}
+      propertyPath: m_TagString
+      value: flat
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6558e68d50d0f5e47a6f46bb21f19616, type: 3}
@@ -7334,6 +7354,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick 2X4 flat
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 90d1d5e9a10dd9146985626a1ad9eaf9,
+        type: 3}
+      propertyPath: m_TagString
+      value: flat
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90d1d5e9a10dd9146985626a1ad9eaf9, type: 3}
 --- !u!1 &1664171508 stripped
@@ -8039,6 +8064,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wire
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9797bab13df887d438e5d5ccb062b59c,
+        type: 3}
+      propertyPath: m_TagString
+      value: flat
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9797bab13df887d438e5d5ccb062b59c, type: 3}
