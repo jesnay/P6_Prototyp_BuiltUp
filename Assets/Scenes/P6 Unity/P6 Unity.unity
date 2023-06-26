@@ -420,7 +420,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 854225210}
-        m_TargetAssemblyTypeName: ToggleDestroyer, Assembly-CSharp
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
+        m_MethodName: checkDestruction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 854225210}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
         m_MethodName: deactivateDestroyMode
         m_Mode: 1
         m_Arguments:
@@ -573,8 +585,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placeBrickSound: {fileID: 0}
-  deleteBrickSound: {fileID: 0}
+  placeBrickSound: {fileID: 188565618}
+  deleteBrickSound: {fileID: 481427656}
 --- !u!65 &17972855
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -995,7 +1007,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1778189987}
-        m_TargetAssemblyTypeName: ToggleDestroyer, Assembly-CSharp
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
+        m_MethodName: checkDestruction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1778189987}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
         m_MethodName: deactivateDestroyMode
         m_Mode: 1
         m_Arguments:
@@ -1148,8 +1172,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placeBrickSound: {fileID: 0}
-  deleteBrickSound: {fileID: 0}
+  placeBrickSound: {fileID: 188565618}
+  deleteBrickSound: {fileID: 481427656}
 --- !u!65 &145757007
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1588,13 +1612,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CheckCollision, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 1644503263}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
+        m_MethodName: activateDestroyMode
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1676,13 +1700,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: AddNewBrick, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 1644503263}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
+        m_MethodName: checkDestruction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1644503263}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
+        m_MethodName: deactivateDestroyMode
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1830,8 +1866,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placeBrickSound: {fileID: 0}
-  deleteBrickSound: {fileID: 0}
+  placeBrickSound: {fileID: 188565618}
+  deleteBrickSound: {fileID: 481427656}
 --- !u!65 &401231756
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2069,13 +2105,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CheckCollision, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 406955893}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
+        m_MethodName: activateDestroyMode
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2157,13 +2193,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: AddNewBrick, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 406955893}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
+        m_MethodName: checkDestruction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 406955893}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
+        m_MethodName: deactivateDestroyMode
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2311,8 +2359,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placeBrickSound: {fileID: 0}
-  deleteBrickSound: {fileID: 0}
+  placeBrickSound: {fileID: 188565618}
+  deleteBrickSound: {fileID: 481427656}
 --- !u!65 &406955886
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2473,9 +2521,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 406955879}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 876da27a50f4e464aae0d0db0b4e51b1, type: 3}
+  m_Script: {fileID: 11500000, guid: e6dfc60fa2cf848ad8a20f1357f138eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Destroyer: {fileID: 250482524}
+  Cube1: {fileID: 1903357462}
+  Cube2: {fileID: 1867929566}
+  normalDestroyerMaterial: {fileID: 2100000, guid: 0e5212e027e35422ba37d3fdba65e4d4,
+    type: 2}
 --- !u!1 &422858422 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 861f7ea01b393465a8e00177d233b960,
@@ -3330,7 +3383,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1015013851}
-        m_TargetAssemblyTypeName: ToggleDestroyer, Assembly-CSharp
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
+        m_MethodName: checkDestruction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1015013851}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
         m_MethodName: deactivateDestroyMode
         m_Mode: 1
         m_Arguments:
@@ -3483,8 +3548,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placeBrickSound: {fileID: 0}
-  deleteBrickSound: {fileID: 0}
+  placeBrickSound: {fileID: 188565618}
+  deleteBrickSound: {fileID: 481427656}
 --- !u!65 &728975414
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3896,9 +3961,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 17972848}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 876da27a50f4e464aae0d0db0b4e51b1, type: 3}
+  m_Script: {fileID: 11500000, guid: e6dfc60fa2cf848ad8a20f1357f138eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Destroyer: {fileID: 250482524}
+  Cube1: {fileID: 1903357462}
+  Cube2: {fileID: 1867929566}
+  normalDestroyerMaterial: {fileID: 2100000, guid: 0e5212e027e35422ba37d3fdba65e4d4,
+    type: 2}
 --- !u!1001 &983894412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4135,9 +4205,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 728975407}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 876da27a50f4e464aae0d0db0b4e51b1, type: 3}
+  m_Script: {fileID: 11500000, guid: e6dfc60fa2cf848ad8a20f1357f138eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Destroyer: {fileID: 250482524}
+  Cube1: {fileID: 1903357462}
+  Cube2: {fileID: 1867929566}
+  normalDestroyerMaterial: {fileID: 2100000, guid: 0e5212e027e35422ba37d3fdba65e4d4,
+    type: 2}
 --- !u!4 &1027968025 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5543c625fba5cb24daf0e5c5bf7d6600,
@@ -4437,7 +4512,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2032305447}
-        m_TargetAssemblyTypeName: ToggleDestroyer, Assembly-CSharp
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
         m_MethodName: activateDestroyMode
         m_Mode: 1
         m_Arguments:
@@ -4525,7 +4600,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2032305447}
-        m_TargetAssemblyTypeName: ToggleDestroyer, Assembly-CSharp
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
+        m_MethodName: checkDestruction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2032305447}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
         m_MethodName: deactivateDestroyMode
         m_Mode: 1
         m_Arguments:
@@ -4678,8 +4765,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placeBrickSound: {fileID: 0}
-  deleteBrickSound: {fileID: 0}
+  placeBrickSound: {fileID: 188565618}
+  deleteBrickSound: {fileID: 481427656}
 --- !u!65 &1145163540
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5692,13 +5779,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CheckCollision, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 1696149361}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
+        m_MethodName: activateDestroyMode
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5780,13 +5867,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: AddNewBrick, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 1696149361}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
+        m_MethodName: checkDestruction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1696149361}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
+        m_MethodName: deactivateDestroyMode
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5934,8 +6033,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placeBrickSound: {fileID: 0}
-  deleteBrickSound: {fileID: 0}
+  placeBrickSound: {fileID: 188565618}
+  deleteBrickSound: {fileID: 481427656}
 --- !u!65 &1379019659
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6397,7 +6496,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1667162496}
-        m_TargetAssemblyTypeName: ToggleDestroyer, Assembly-CSharp
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
+        m_MethodName: checkDestruction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1667162496}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
         m_MethodName: deactivateDestroyMode
         m_Mode: 1
         m_Arguments:
@@ -6550,8 +6661,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placeBrickSound: {fileID: 0}
-  deleteBrickSound: {fileID: 0}
+  placeBrickSound: {fileID: 188565618}
+  deleteBrickSound: {fileID: 481427656}
 --- !u!65 &1406546676
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7709,9 +7820,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 401231749}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 876da27a50f4e464aae0d0db0b4e51b1, type: 3}
+  m_Script: {fileID: 11500000, guid: e6dfc60fa2cf848ad8a20f1357f138eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Destroyer: {fileID: 250482524}
+  Cube1: {fileID: 1903357462}
+  Cube2: {fileID: 1867929566}
+  normalDestroyerMaterial: {fileID: 2100000, guid: 0e5212e027e35422ba37d3fdba65e4d4,
+    type: 2}
 --- !u!23 &1648688000 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 37b1088ca7d91904ea33dbef8ff82b07,
@@ -8069,13 +8185,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CheckCollision, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 1664171522}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
+        m_MethodName: activateDestroyMode
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -8157,13 +8273,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: AddNewBrick, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 1664171522}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
+        m_MethodName: checkDestruction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1664171522}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
+        m_MethodName: deactivateDestroyMode
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -8311,8 +8439,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placeBrickSound: {fileID: 0}
-  deleteBrickSound: {fileID: 0}
+  placeBrickSound: {fileID: 188565618}
+  deleteBrickSound: {fileID: 481427656}
 --- !u!65 &1664171515
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8473,9 +8601,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1664171508}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 876da27a50f4e464aae0d0db0b4e51b1, type: 3}
+  m_Script: {fileID: 11500000, guid: e6dfc60fa2cf848ad8a20f1357f138eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Destroyer: {fileID: 250482524}
+  Cube1: {fileID: 1903357462}
+  Cube2: {fileID: 1867929566}
+  normalDestroyerMaterial: {fileID: 2100000, guid: 0e5212e027e35422ba37d3fdba65e4d4,
+    type: 2}
 --- !u!23 &1667162490 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 8ad2425b00b726d4d91669613efb82de,
@@ -8613,9 +8746,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1406546669}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 876da27a50f4e464aae0d0db0b4e51b1, type: 3}
+  m_Script: {fileID: 11500000, guid: e6dfc60fa2cf848ad8a20f1357f138eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Destroyer: {fileID: 250482524}
+  Cube1: {fileID: 1903357462}
+  Cube2: {fileID: 1867929566}
+  normalDestroyerMaterial: {fileID: 2100000, guid: 0e5212e027e35422ba37d3fdba65e4d4,
+    type: 2}
 --- !u!1001 &1682179970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8829,13 +8967,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CheckCollision, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 1682179985}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
+        m_MethodName: activateDestroyMode
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -8917,13 +9055,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: AddNewBrick, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 1682179985}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
+        m_MethodName: checkDestruction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1682179985}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
+        m_MethodName: deactivateDestroyMode
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9071,8 +9221,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placeBrickSound: {fileID: 0}
-  deleteBrickSound: {fileID: 0}
+  placeBrickSound: {fileID: 188565618}
+  deleteBrickSound: {fileID: 481427656}
 --- !u!65 &1682179978
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9233,9 +9383,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1682179971}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 876da27a50f4e464aae0d0db0b4e51b1, type: 3}
+  m_Script: {fileID: 11500000, guid: e6dfc60fa2cf848ad8a20f1357f138eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Destroyer: {fileID: 250482524}
+  Cube1: {fileID: 1903357462}
+  Cube2: {fileID: 1867929566}
+  normalDestroyerMaterial: {fileID: 2100000, guid: 0e5212e027e35422ba37d3fdba65e4d4,
+    type: 2}
 --- !u!23 &1696149355 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 6558e68d50d0f5e47a6f46bb21f19616,
@@ -9373,9 +9528,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1379019652}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 876da27a50f4e464aae0d0db0b4e51b1, type: 3}
+  m_Script: {fileID: 11500000, guid: e6dfc60fa2cf848ad8a20f1357f138eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Destroyer: {fileID: 250482524}
+  Cube1: {fileID: 1903357462}
+  Cube2: {fileID: 1867929566}
+  normalDestroyerMaterial: {fileID: 2100000, guid: 0e5212e027e35422ba37d3fdba65e4d4,
+    type: 2}
 --- !u!1 &1712367806
 GameObject:
   m_ObjectHideFlags: 0
@@ -9581,9 +9741,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 145757000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 876da27a50f4e464aae0d0db0b4e51b1, type: 3}
+  m_Script: {fileID: 11500000, guid: e6dfc60fa2cf848ad8a20f1357f138eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Destroyer: {fileID: 250482524}
+  Cube1: {fileID: 1903357462}
+  Cube2: {fileID: 1867929566}
+  normalDestroyerMaterial: {fileID: 2100000, guid: 0e5212e027e35422ba37d3fdba65e4d4,
+    type: 2}
 --- !u!1001 &1805676743
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9824,9 +9989,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1145163533}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 876da27a50f4e464aae0d0db0b4e51b1, type: 3}
+  m_Script: {fileID: 11500000, guid: e6dfc60fa2cf848ad8a20f1357f138eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Destroyer: {fileID: 250482524}
+  Cube1: {fileID: 1903357462}
+  Cube2: {fileID: 1867929566}
+  normalDestroyerMaterial: {fileID: 2100000, guid: 0e5212e027e35422ba37d3fdba65e4d4,
+    type: 2}
 --- !u!4 &2036097659 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5543c625fba5cb24daf0e5c5bf7d6600,
