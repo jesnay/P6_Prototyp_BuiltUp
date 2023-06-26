@@ -573,7 +573,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 188565618}
+  placeBrickSound: {fileID: 0}
+  deleteBrickSound: {fileID: 0}
 --- !u!65 &17972855
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1147,7 +1148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 188565618}
+  placeBrickSound: {fileID: 0}
+  deleteBrickSound: {fileID: 0}
 --- !u!65 &145757007
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1194,7 +1196,7 @@ GameObject:
   - component: {fileID: 188565619}
   - component: {fileID: 188565618}
   m_Layer: 0
-  m_Name: Audio Source Brick
+  m_Name: PlaceBrickSound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1797,7 +1799,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 188565618}
+  placeBrickSound: {fileID: 0}
+  deleteBrickSound: {fileID: 0}
 --- !u!65 &401231756
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2277,7 +2280,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 188565618}
+  placeBrickSound: {fileID: 0}
+  deleteBrickSound: {fileID: 0}
 --- !u!65 &406955886
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2575,13 +2579,141 @@ RectTransform:
   m_Children:
   - {fileID: 559251334}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 45, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0.497}
   m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &481427655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 481427657}
+  - component: {fileID: 481427656}
+  m_Layer: 0
+  m_Name: DeleteBrickSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &481427656
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481427655}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 72998c6d633eb46bc8a19c1dd8a8fc9c, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &481427657
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481427655}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.39190432, y: 1.403208, z: -0.5241423}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &559251333
 GameObject:
   m_ObjectHideFlags: 0
@@ -3321,7 +3453,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 188565618}
+  placeBrickSound: {fileID: 0}
+  deleteBrickSound: {fileID: 0}
 --- !u!65 &728975414
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4013,7 +4146,7 @@ Transform:
   m_Children:
   - {fileID: 835205367}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1106563017 stripped
 GameObject:
@@ -4517,7 +4650,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 188565618}
+  placeBrickSound: {fileID: 0}
+  deleteBrickSound: {fileID: 0}
 --- !u!65 &1145163540
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5002,7 +5136,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 188565618}
+  placeBrickSound: {fileID: 0}
+  deleteBrickSound: {fileID: 0}
 --- !u!65 &1164269323
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5125,7 +5260,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!114 &1186626487
 MonoBehaviour:
@@ -5759,7 +5894,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 188565618}
+  placeBrickSound: {fileID: 0}
+  deleteBrickSound: {fileID: 0}
 --- !u!65 &1379019659
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6374,7 +6510,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 188565618}
+  placeBrickSound: {fileID: 0}
+  deleteBrickSound: {fileID: 0}
 --- !u!65 &1406546676
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6612,8 +6749,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1416992020}
-        m_TargetAssemblyTypeName: ToggleDestroyer, Assembly-CSharp
+      - m_Target: {fileID: 1416992022}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
         m_MethodName: activateDestroyMode
         m_Mode: 1
         m_Arguments:
@@ -6700,8 +6837,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1416992020}
-        m_TargetAssemblyTypeName: ToggleDestroyer, Assembly-CSharp
+      - m_Target: {fileID: 1416992022}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
         m_MethodName: checkDestruction
         m_Mode: 1
         m_Arguments:
@@ -6712,8 +6849,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1416992020}
-        m_TargetAssemblyTypeName: ToggleDestroyer, Assembly-CSharp
+      - m_Target: {fileID: 1416992022}
+        m_TargetAssemblyTypeName: ControlDestroyer, Assembly-CSharp
         m_MethodName: deactivateDestroyMode
         m_Mode: 1
         m_Arguments:
@@ -6866,7 +7003,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 188565618}
+  placeBrickSound: {fileID: 188565618}
+  deleteBrickSound: {fileID: 481427656}
 --- !u!65 &1416992013
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7028,6 +7166,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 876da27a50f4e464aae0d0db0b4e51b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Destroyer: {fileID: 250482524}
+--- !u!114 &1416992022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416992006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6dfc60fa2cf848ad8a20f1357f138eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Destroyer: {fileID: 250482524}
@@ -8071,7 +8222,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 188565618}
+  placeBrickSound: {fileID: 0}
+  deleteBrickSound: {fileID: 0}
 --- !u!65 &1664171515
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8832,7 +8984,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83118f1fd7206794b9087aea9e686fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 188565618}
+  placeBrickSound: {fileID: 0}
+  deleteBrickSound: {fileID: 0}
 --- !u!65 &1682179978
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9169,7 +9322,7 @@ Transform:
   - {fileID: 1561286407}
   - {fileID: 569608853}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 32.601, y: 0, z: 0}
 --- !u!1 &1763660916
 GameObject:
@@ -9204,7 +9357,7 @@ Transform:
   - {fileID: 2103260192}
   - {fileID: 2037600958}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1778189982 stripped
 MeshRenderer:
@@ -9382,7 +9535,7 @@ PrefabInstance:
     - target: {fileID: 3436706650433174285, guid: a2d526116a4774b438c645cd88646493,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3436706650433174285, guid: a2d526116a4774b438c645cd88646493,
         type: 3}
@@ -9464,7 +9617,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
@@ -9704,7 +9857,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 5543c625fba5cb24daf0e5c5bf7d6600,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5543c625fba5cb24daf0e5c5bf7d6600,
         type: 3}

@@ -16,7 +16,10 @@ public class ControlDestroyer : MonoBehaviour
 
     public void checkDestruction(){
         if(CheckDestroyerCollision.brickOnDestroyer){
-            Destroy(this.gameObject);        
+            CheckDestroyerCollision.brickOnDestroyer = false;
+            Debug.Log(CheckDestroyerCollision.brickOnDestroyer);
+            Debug.Log("HOHOHO");
+            Destroy(this.gameObject);   
         }
 
     }

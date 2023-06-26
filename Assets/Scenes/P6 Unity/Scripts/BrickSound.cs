@@ -5,21 +5,13 @@ using UnityEngine;
 public class BrickSound : MonoBehaviour
 {
 
-    public AudioSource audioSource;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    public AudioSource placeBrickSound;
+    public AudioSource deleteBrickSound;
     public void PlayBrickSound(){
-        audioSource.Play();
+        if(CheckDestroyerCollision.brickOnDestroyer){
+            deleteBrickSound.Play();   
+        } else{
+                placeBrickSound.Play();   
+        }
     }
 }

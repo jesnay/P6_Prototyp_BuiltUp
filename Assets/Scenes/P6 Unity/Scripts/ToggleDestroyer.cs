@@ -14,12 +14,5 @@ public class ToggleDestroyer : MonoBehaviour
         Destroyer.SetActive(false);
     }
 
-    public void checkDestruction(){
-        if(CheckDestroyerCollision.brickOnDestroyer){
-            Destroy(this.gameObject);        
-        }
-
-    }
-
     //wenn wir links und rechts noch pfeile ergänzen: diese im asynchon (de)aktivieren
 }

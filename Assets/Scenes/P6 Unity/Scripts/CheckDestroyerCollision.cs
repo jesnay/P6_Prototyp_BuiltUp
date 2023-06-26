@@ -7,7 +7,6 @@ public class CheckDestroyerCollision : MonoBehaviour
     public static bool brickOnDestroyer = false;
     void OnTriggerEnter(Collider other)
     {
-        // Destroy(other.gameObject);
         brickOnDestroyer = true;
     }
 
