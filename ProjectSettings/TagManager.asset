@@ -8,6 +8,7 @@ TagManager:
   - high 2x
   - high 4x
   - flat
+  - Destroyer
   layers:
   - Default
   - TransparentFX
