@@ -44,8 +44,11 @@ public class ControlDestroyer : MonoBehaviour
 
             if(brickScale <= 0){
                 CheckDestroyerCollision.brickOnDestroyer = false;
-                Cube1.GetComponent<MeshRenderer> ().material = normalDestroyerMaterial;
-                Cube2.GetComponent<MeshRenderer> ().material = normalDestroyerMaterial;
+                // Cube1.GetComponent<MeshRenderer> ().material = normalDestroyerMaterial;
+                // Cube2.GetComponent<MeshRenderer> ().material = normalDestroyerMaterial;
+
+                Destroyer.GetComponent<MeshRenderer> ().material = normalDestroyerMaterial;
+
                 Destroy(this.gameObject); 
             }
         }    }
