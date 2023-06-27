@@ -9,6 +9,7 @@ TagManager:
   - high 4x
   - flat
   - Destroyer
+  - flag
   layers:
   - Default
   - TransparentFX

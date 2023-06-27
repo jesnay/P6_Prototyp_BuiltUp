@@ -42,8 +42,6 @@ public class AddNewBrick : MonoBehaviour
             obj.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f); // size in inventar
 
 
-            // Instantiate(gameObject, gameObjectDefaultPosition, transform.rotation);
-
             objectCollider.isTrigger = true;
             wasSelectedFirstTime = true;
 
