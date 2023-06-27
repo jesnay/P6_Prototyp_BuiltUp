@@ -6,8 +6,8 @@ using UnityEngine;
 public class ControlDestroyer : MonoBehaviour
 {
     public GameObject Destroyer;
-    public GameObject Cube1;
-    public GameObject Cube2;
+    // public GameObject Cube1;
+    // public GameObject Cube2;
     public Material normalDestroyerMaterial;
     private float brickScale;
     private float brickSpeed = 5f;
