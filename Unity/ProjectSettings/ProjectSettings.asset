@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: P6 Team 5
-  productName: P6 Team 5 Meta Quest Pro
+  companyName: "IMD SS23 P6 Team 5 Paul Hupfeld, Jennifer Snay, Max Mittelst\xE4dt"
+  productName: P6 Team 5 Name
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -135,7 +135,9 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 5065326092964092847, guid: c053d5ab959784644a8a707e2738f994, type: 2}
+  - {fileID: -7752207915143559910, guid: e7e06aac918e9a74e8993e0592075092, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
