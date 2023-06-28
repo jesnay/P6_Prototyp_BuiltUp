@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18706328, g: 0.21855919, b: 0.31327635, a: 1}
+  m_IndirectSpecularColor: {r: 0.37609, g: 0.4056549, b: 0.46457472, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -10647,12 +10647,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: fb789d8f8fe38fe45a79aeda1578085b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.28
+      value: 0.275
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb789d8f8fe38fe45a79aeda1578085b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.0227
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb789d8f8fe38fe45a79aeda1578085b,
         type: 3}
@@ -10698,7 +10698,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 0e5212e027e35422ba37d3fdba65e4d4, type: 2}
+      objectReference: {fileID: 2100000, guid: 841dadc6d78561b49b54e33cc3a0719b, type: 2}
     - target: {fileID: 919132149155446097, guid: fb789d8f8fe38fe45a79aeda1578085b,
         type: 3}
       propertyPath: m_Name
@@ -10707,7 +10707,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fb789d8f8fe38fe45a79aeda1578085b,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb789d8f8fe38fe45a79aeda1578085b, type: 3}
@@ -10748,9 +10748,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89e9e82a3a7d1e547b642addcded5040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normalDestroyerMaterial: {fileID: 2100000, guid: 0e5212e027e35422ba37d3fdba65e4d4,
+  normalDestroyerMaterial: {fileID: 2100000, guid: 841dadc6d78561b49b54e33cc3a0719b,
     type: 2}
-  hoverDestroyerMaterial: {fileID: 2100000, guid: 6c30108f1a34e46e6b27f07b83cd59d3,
+  hoverDestroyerMaterial: {fileID: 2100000, guid: a6270b33387224b9ab47d847c78c7fd8,
     type: 2}
 --- !u!23 &2032305441 stripped
 MeshRenderer:

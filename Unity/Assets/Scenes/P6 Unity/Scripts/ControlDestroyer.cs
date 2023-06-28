@@ -20,11 +20,11 @@ public class ControlDestroyer : MonoBehaviour
 
     public void activateDestroyMode(){ 
         //blende Destroyer auf der linken oder rechten Seite neben der Hotbar ein, je nachdem wo der Brick gegriffen wird:
-        if(transform.position.x > 0){
-            Destroyer.transform.position = new Vector3(0.28f, Destroyer.transform.position.y, Destroyer.transform.position.z);
-        } else{
-            Destroyer.transform.position = new Vector3(-0.28f, Destroyer.transform.position.y, Destroyer.transform.position.z);
-        }
+        // if(transform.position.x > 0){
+        //     Destroyer.transform.position = new Vector3(0.28f, Destroyer.transform.position.y, Destroyer.transform.position.z);
+        // } else{
+        //     Destroyer.transform.position = new Vector3(-0.28f, Destroyer.transform.position.y, Destroyer.transform.position.z);
+        // }
         Destroyer.SetActive(true);
     }
     public void deactivateDestroyMode(){
