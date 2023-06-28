@@ -52,7 +52,7 @@ Für die erfolgreiche Einstellung und Übertragung des Prototypen muss folgendes
 
 ### Prototyp zurücksetzen
 
-Dreht man sich um, findet man hinter sich einen **Reset Button**. Klickt man diesen, wird der Prototyp zurückgesetzt und alles was gebaut wurde verschwindet.
+Dreht man sich um, findet man hinter sich einen **Delete all** Button. Klickt man diesen, wird der Prototyp zurückgesetzt und alles was gebaut wurde verschwindet.
 
 > **Note**
 >
