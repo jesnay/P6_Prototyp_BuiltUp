@@ -6,11 +6,11 @@ using UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.State;
 
 public class AddNewBrick : MonoBehaviour
 {
-    private bool wasSelectedFirstTime = false;
+    private bool wasSelectedFirstTime = false; // Prevents code from being retrieved more than once 
+    public bool isPlaced = false; //checks wheater it is used as building block (true) or as hotbar block (false)
     private BoxCollider objectCollider;
-
     private Vector3 gameObjectDefaultPosition;
-    public bool isPlaced = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -39,7 +39,7 @@ public class AddNewBrick : MonoBehaviour
         if (wasSelectedFirstTime == false)
         {
 
-            GameObject obj = Instantiate(gameObject, gameObjectDefaultPosition, transform.rotation);
+            GameObject obj = Instantiate(gameObject, gameObjectDefaultPosition, transform.rotation); // spawn new gameObject
             obj.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f); // size in inventar
 
 
@@ -50,19 +50,11 @@ public class AddNewBrick : MonoBehaviour
             gameObject.GetComponent<UniformTransformScaleAffordanceReceiver>().enabled = false;
             gameObject.GetComponent<XRInteractableAffordanceStateProvider>().enabled = false;
 
-            isPlaced = true;
+            isPlaced = true; // importante for ResetScene.cs
 
         }
 
 
     }
 
-
-    /* public void checkGrab(){
-         objectCollider.isTrigger=false;
-     }
-
-     public void removeGrab(){
-         objectCollider.isTrigger=true;
-     }*/
 }

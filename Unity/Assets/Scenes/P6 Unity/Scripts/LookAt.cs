@@ -15,6 +15,7 @@ public class LookAt : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // only y-Axis rotation is following target
         Vector3 targetPosition = new Vector3(target.position.x, transform.position.y, target.position.z);
         transform.LookAt(targetPosition);
     }

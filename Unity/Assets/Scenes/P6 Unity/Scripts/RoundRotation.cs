@@ -4,17 +4,7 @@ using UnityEngine;
 
 public class RoundRotation : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+    // Round rotation. Rounds to nearest 90 Degrees
     public void RoundRot()
     {
         // Debug.Log(transform.eulerAngles + "Rotation Before");

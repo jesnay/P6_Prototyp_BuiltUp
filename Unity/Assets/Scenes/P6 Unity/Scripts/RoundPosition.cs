@@ -4,22 +4,10 @@ using UnityEngine;
 
 public class RoundPosition : MonoBehaviour
 {
-
-    void Start()
-    {
-
-    }
-
-
-    void Update()
-    {
-
-    }
-
+    // Round positon
     public void RoundPos()
     {
-         float xSpacing = 0.024f;
-        //float ySpacing = 0.029f;
+        float xSpacing = 0.024f;
         float ySpacing = 0.0096f;
         float zSpacing = xSpacing;
 

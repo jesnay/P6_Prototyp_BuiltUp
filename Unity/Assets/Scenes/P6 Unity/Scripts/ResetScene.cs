@@ -20,15 +20,12 @@ public class ResetScene : MonoBehaviour
     public void Update()
     {
         transform.position = mainCamera.transform.position + Vector3.forward * -0.4f + Vector3.up * -0.5f;
-
-        // bricktags = GameObject.FindGameObjectsWithTag("brick");
-
-        // Debug.Log(bricktags);
     }
     public void SceneReset()
     {
         // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
+        // Get all gameObjects with specific tag
         bricktags = GameObject.FindGameObjectsWithTag("brick");
         flagtags = GameObject.FindGameObjectsWithTag("flag");
         high2Xtagss = GameObject.FindGameObjectsWithTag("high 2x");
@@ -44,6 +41,7 @@ public class ResetScene : MonoBehaviour
                 {
                     Destroy(g.gameObject);
                 }
+                // Destroys all gameObject which are not in the hotbar
             }
         }
         if (flagtags != null)
