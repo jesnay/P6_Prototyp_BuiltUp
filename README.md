@@ -36,7 +36,7 @@ Für die erfolgreiche Einstellung und Übertragung des Prototypen muss folgendes
 
 > **Note**
 >
-> Sollte man nicht auf der richtigen Position starten, kann man sich mit dem Joystick der Controller im Raum bewegen, um zu seinem Platz zu kommen.
+> Sollte man nicht an der richtigen Position starten (Bausteine und Avatare), kann man sich mit dem Joystick der Controller im Raum bewegen, um zu seinem Platz zu kommen.
 
 ### Prototyp verlassen
 
