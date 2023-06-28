@@ -10,6 +10,7 @@ TagManager:
   - flat
   - Destroyer
   - flag
+  - brick
   layers:
   - Default
   - TransparentFX

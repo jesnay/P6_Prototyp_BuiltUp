@@ -10,6 +10,7 @@ public class AddNewBrick : MonoBehaviour
     private BoxCollider objectCollider;
 
     private Vector3 gameObjectDefaultPosition;
+    public bool isPlaced = false;
 
     // Start is called before the first frame update
     void Start()
@@ -49,6 +50,7 @@ public class AddNewBrick : MonoBehaviour
             gameObject.GetComponent<UniformTransformScaleAffordanceReceiver>().enabled = false;
             gameObject.GetComponent<XRInteractableAffordanceStateProvider>().enabled = false;
 
+            isPlaced = true;
 
         }
 
