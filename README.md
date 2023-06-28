@@ -1,4 +1,4 @@
-# P6 VR Integration für virtuelle Arbeits- und Konferenzräume
+# BuiltUp - VR Integration für virtuelle Arbeits- und Konferenzräume
 
 Für die Nutzung des Prototypen muss eine Meta Quest Pro vorhanden sein.
 
@@ -24,13 +24,13 @@ Für die erfolgreiche Einstellung und Übertragung des Prototypen muss folgendes
 ## 3. Übertragung auf Meta Quest Pro
 
 1. Im **Meta Quest Developer Hub** wählen sie **Device Manager** aus und klicken Sie dort **Add Build**
-2. Im Github Repository wählen Sie **App > P6_Team5_Prototyp.apk** aus. Das Programm wird jetzt auf die **Meta Quest Pro** hochgeladen.
+2. Im Github Repository wählen Sie **App > P6_Prototyp_BuiltUp.apk** aus. Das Programm wird jetzt auf die **Meta Quest Pro** hochgeladen.
 
 ## 4. Ausführung
 
 1. Setzen Sie die **Meta Quest Pro** auf und wählen Sie in der Menüleiste **App Library** aus. Graues App Icon mit 4 weißen Kacheln auf linker Seite (Kann je nach Betriebssystem Version abweichen). So gelangen Sie zu den Apps.
 2. Oben rechts erscheint ein **Filter** Icon. Dieses wählen Sie aus und filtern nach **Unbekannten Quellen**.
-3. Wählen Sie das Projekt **P6 Team 5 Name** aus. Sie betreten nun den Prototypen.
+3. Wählen Sie das Projekt **P6 Prototyp BuiltUp** aus. Sie betreten nun den Prototypen.
 
 [Hier finden Sie die Hand-Tracking Gesten der Meta Quest](https://www.meta.com/de-de/help/quest/articles/headsets-and-accessories/controllers-and-hand-tracking/hand-tracking-quest-2/)
 
