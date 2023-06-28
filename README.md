@@ -1,6 +1,7 @@
 # BuiltUp - VR Integration für virtuelle Arbeits- und Konferenzräume
 
 Für die Nutzung des Prototypen muss eine Meta Quest Pro vorhanden sein.
+Für die Übertragung des Prototypen auf die Meta Quest Pro wird ein **USB-Typ-C 3.0** Kabel benötigt.
 
 Schritt 1 bis 3 kann übersprungen werden, wenn der Prototyp bereits auf der Meta Quest Pro installiert ist.
 
