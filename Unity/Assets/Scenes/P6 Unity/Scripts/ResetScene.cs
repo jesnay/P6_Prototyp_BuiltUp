@@ -26,6 +26,7 @@ public class ResetScene : MonoBehaviour
         // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
         // Get all gameObjects with specific tag
+        // Solution to find every GameObject with tags, because GameObject can only have on tag
         bricktags = GameObject.FindGameObjectsWithTag("brick");
         flagtags = GameObject.FindGameObjectsWithTag("flag");
         high2Xtagss = GameObject.FindGameObjectsWithTag("high 2x");
