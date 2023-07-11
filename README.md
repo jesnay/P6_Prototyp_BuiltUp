@@ -58,14 +58,12 @@ Dreht man sich um, findet man hinter sich einen **Delete all** Button. Klickt ma
 >
 > Den Reset Button kann man mit einem Finger klicken (Poke Geste).
 
-
-
-
-
 ## Credits
+
 Avatare erstellt mit Ready Player Me: https://readyplayer.me/de
 Bausteine erstellt mit Mecabricks: https://www.mecabricks.com/en/workshop
-Audiosound von: 
-Erde von:
+Audiosounds von: iMovie copyright free sounds
+Erde von: https://skfb.ly/6TwGG by Akshat
+Wolke von: https://free3d.com/de/3d-model/cloud-3-6014.html
 Hintergrund von polyhaven: https://polyhaven.com/hdris
 Animationen mit Mixamo: https://www.mixamo.com/#/
