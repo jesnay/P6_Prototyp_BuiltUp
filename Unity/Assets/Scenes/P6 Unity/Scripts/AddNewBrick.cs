@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Transformation;
 using UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.State;
 
+    // Teil von Max Feature
 public class AddNewBrick : MonoBehaviour
 {
     private bool wasSelectedFirstTime = false; // Prevents code from being retrieved more than once 
